@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* justify-content: center;
+    flex-wrap: wrap;
+     */
+  }
+
+  #home{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #text{
+    font-family: Arial, sans-serif;
+    margin: 5%;
+    max-width: 600px;
+  }
+
+#between {
+  display: flex;
+  /* margin: 5px; */
+  /* padding: 5px; */
+  justify-content: space-between;
+}
+
+#left{
+  float: right;
+}
+
+#receipt{
+  border-radius: 30px;
+  background: transparent !important;
+}
+
+  .menu{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #select{
+    height: 35px;
+  }
+  #select2{
+    height: 55px;
+    width: 240px;
+    background: transparent;
+  }
+
+  span{
+    padding-left: 10%;
+  }
+
+  #test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#drone img{
+  height: 65px;
+  width: 100%;
+  object-fit: cover;
+}
+
+button{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+  .nav Button{
+    color: white;
+  }
+
+Button:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+  /* API type data */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  header{
+    background-color: #4ebee7;
+    padding: 10px 0;
+  }
+  
+  header h1{
+    color: #ddd;
+    text-align: center;
+  }
+  
+  header #search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    padding: 15px 20px; 
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    color: #000;
+  }
+  
+#hi{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+
+
+
+#container{
+  display: flex;
+  margin: 50% ;
+}
+
+#table {
+  margin: 5%;
+  /*  */
+  /* display: flex;
+  justify-content: center; */
+}
+
+#adddata{
+  margin: 5%;
+  display: flex;
+  flex-Direction: column;
+  align-items: center;
+}
+
+
+
+  body{
+    background-color: antiquewhite;
+  }
+  
+  #food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #food-list input {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .food-card{
+    /* align-items: center; */
+    
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+
+.food-card Button {
+  margin: 12px;
+}
+
+  .food-card img{
+    width: 100%;
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+ #img {
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .food-card h3 {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  
+  strong {
+    color: #333;
+  }
+
+  #price {
+    font-size: 20px;
+    color: #22a1e1;
+  }
+  
+  .food-card p {
+    padding-left: 10%;
+    color: #373737;
+    text-align: left;
+    margin: 5px;
+    font-size: 15px;
+  }
+  
+  .food-card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+  }
+  
